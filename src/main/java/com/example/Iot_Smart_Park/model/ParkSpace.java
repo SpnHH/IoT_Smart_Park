@@ -13,8 +13,8 @@ public class ParkSpace {
 
     public ParkSpace(@JsonProperty("id")UUID id,
                      @JsonProperty("status") boolean status,
-                     @JsonProperty("LocationLat")double locationLat,
-                     @JsonProperty("LocationLng")double locationLng) {
+                     @JsonProperty("locationlat")double locationLat,
+                     @JsonProperty("locationlng")double locationLng) {
         this.id = id;
         this.status = status;
         LocationLat = locationLat;
@@ -25,7 +25,7 @@ public class ParkSpace {
         return id;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 

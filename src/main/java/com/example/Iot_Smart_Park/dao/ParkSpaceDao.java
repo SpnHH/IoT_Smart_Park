@@ -20,5 +20,4 @@ public interface ParkSpaceDao {
     int deleteParkSpaceById(UUID id);
     int updateParkSpaceById(UUID id, ParkSpace parkSpace);
 
-    Optional<ParkSpace> getParkSpaceByName(String name);
 }
