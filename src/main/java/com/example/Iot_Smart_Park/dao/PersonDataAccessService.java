@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
-@Repository("postgres")
+@Repository("personPostgres")
 public class PersonDataAccessService implements PersonDao{
 
     private final JdbcTemplate jdbcTemplate;
